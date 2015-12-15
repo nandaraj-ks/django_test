@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>Hello</h1>
+<ol>
+{% for student in students %}
+    <li>{{ student.name }}, {{ student.date }}, {{student.rank }}</li>
+{% endfor %}
+</ol>
+<a href="/add">Додати</a>
+</body>
+</html>
